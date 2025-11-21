@@ -9,7 +9,7 @@ from langchain_openai import ChatOpenAI
 # ---------------------------------------------------------
 llm = ChatOpenAI(
     model="qwen/qwen-2.5-72b-instruct",
-    openai_api_key="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",  # Replace with your key
+    openai_api_key="Your API KEY",  # Replace with your key
     openai_api_base="https://openrouter.ai/api/v1",
     temperature=0
 )
