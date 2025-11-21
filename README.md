@@ -30,3 +30,9 @@ cd <repo-name>
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
+To run the chatbot.
+python app.py
+ 
+Open browser:
+http://127.0.0.1:7860/
